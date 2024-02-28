@@ -11,7 +11,7 @@ console.log(RNum);
 
 submit.onclick = function () {
     GNum = num.value;
-    GNum = Number(GNum);
+    GNum = parseInt(GNum);
     if (isNaN(GNum)) {
         hint.textContent = `Enter a Valid Number`;
         console.log(GNum)
